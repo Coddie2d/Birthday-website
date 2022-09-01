@@ -18,7 +18,7 @@ body,p,h1,h2,h3,h4,h5,h6,li,ul{
 }
 .header__navLinks {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 60px 55px 100px;
 }
 
@@ -173,11 +173,6 @@ body,p,h1,h2,h3,h4,h5,h6,li,ul{
       font-size: calc(3.375rem * var(--smaller));
     }
   }
-
-
-
-
-
   .buttonWithAnimation {
     padding: 100px 0;
     background-image: url(../imges/headerBackground.png);
