@@ -364,3 +364,35 @@
     }
     
 }
+
+
+@media (max-width:410px){
+    .countdown li span{ 
+        font-size: 2.5rem;
+    }
+    .countdown li{
+        font-size: 0.75rem;
+    }
+    .header__confirmAttendance{
+        margin: 0 auto;
+        max-width: 340px;
+    }
+    .header__confirmAttendanceH3{
+        font-size: 15px;
+    }
+    .header__text{
+        padding-top: 20px;
+    }
+    .headline{
+        font-size:16px !important;
+    }
+}
+@media (max-width:330px){
+    .countdown li span{
+        font-size: 2rem;
+    }
+    .countdown li{
+        font-size: 0.6rem;
+    }
+
+}
