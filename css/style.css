@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body,p,h1,h2,h3,h4,h5,h6,li,ul{
+    margin: 0;
+    margin-bottom: 0; 
+    padding: 0;
+}
+
+.montserrat{
+    font-family: 'Montserrat';
+}
+
+
+.header {
+    background-image: url(../imges/headerBackground.png);
+    padding-bottom: 400px;
+}
+.header__navLinks {
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px 55px 100px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #7480af;
+}
+.header__icon {
+    margin: 0 30px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__left {
+    
+}
+
+.header__title {    
+    max-width: 400px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    text-transform: uppercase;
+}
+.header__happy-word {
+    color: #ffd0e1 !important;
+    font-weight: 400;
+}
+.header__common{
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+}
+.header__birthday-word {
+    
+}
+.header__toyou-word {
+    
+}
+
+.header__confirmAttendance {
+    background-color: #6f81b2;
+    padding: 6px 10px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+}
+.header__confirmAttendanceH3{
+    font-size: 20px;
+    color: #ffd0e1; 
+    margin-bottom: 0;
+}
+.header__text {
+    font-size: 23px;
+    max-width: 320px;
+    margin: 0;
+    color: white;
+    
+}
+.header__dateparty{
+    font-weight: bold;
+    color: #ffd0e1;
+}
+.imgSettings{
+    position: absolute;
+    overflow: hidden;
+}
+.header__right {
+    min-width: 500px;
+}
+
+
+
+
+
+/* general styling */
+:root {
+    --smaller: .75;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.countdown  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .countdown {
+    justify-content: center;
+    align-items: center;
+ 
+    display: flex;
+  }
+  
+ .myContainer {
+    padding: 100px 0;
+    background-color: #ffd54f;
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .countdown  h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+  }
+  
+  .countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  .countdown  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+
+
+
+
+
+  .buttonWithAnimation {
+    padding: 100px 0;
+    background-image: url(../imges/headerBackground.png);
+  }
+  .buttonWithAnimation__title {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .buttonWithAnimation__button {
+    border: 3px solid white !important;
+    display: flex !important;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .button {
+  }
+  
