@@ -11,11 +11,10 @@
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        h = 17;
         m = 1;
-        dayMonth = "-09-01",
-        birthday = yyyy + dayMonth + "T" + h + ":" + "0" +m;
-    today = mm + "-" + dd + "-" + yyyy;
+        dayMonth = "09/01/",
+        birthday =  dayMonth + yyyy;
+    today = mm + "/" + dd + "/" + yyyy;
     if (today > birthday) {
       birthday = dayMonth + nextYear;
     }
@@ -55,7 +54,6 @@ $('buttonWithAnimation__button').click(function (e) {
 
 buttonWithAnimation__button.addEventListener('click',function(){
   // Globals
-  console.log('testtt')
   var random = Math.random
     , cos = Math.cos
     , sin = Math.sin
